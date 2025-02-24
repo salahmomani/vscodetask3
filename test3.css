@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    text-align: center;
+    width: 80%;
+    max-width: 900px;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f6fa;
+  }
+  /* .main {
+    text-align: center;
+    width: 80%;
+    max-width: 900px;
+  } */
+  
+  h2 {
+    color: #888;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  
+  p {
+    color: #666;
+    font-size: 16px;
+    margin: 10px 0 30px;
+  }
+  .main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+.d {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.1s;
+  }
+  
+  .d:hover {
+    transform: translateX(-5px);
+  }
+  
+  .d h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .d p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .d img {
+    width: 40px;
+    height: 40px;
+    align-self: flex-end;
+  }
+  .d.suparvisor {
+    border-top: 4px solid #28b6f6;
+  }
+  
+  .d.team {
+    border-top: 4px solid #f6416c;
+  }
+  
+ .d.Calculater {
+    border-top: 4px solid #3b5998;
+  }
+  
+  .d.karma {
+    border-top: 4px solid #ffbe0b;
+  }
